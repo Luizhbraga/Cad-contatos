@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #04c9f4;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+main {
+  flex: 1;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  max-width: 1000px;
+}
+
+#section1 {
+  background-color: #d9d9d9;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+label {
+  font-size: 13px;
+  color: #ffffffc2;
+}
+
+input {
+  height: 35px;
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  width: 100%;
+}
+
+.row input {
+  width: 100%;
+}
+
+.telefone {
+  width: 200px;
+}
+
+#section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.incluir {
+  background-color: #4caf50;
+  color: white;
+}
+
+.editar {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.salvar {
+  background-color: #5bc0de;
+  color: white;
+}
+
+.cancelar {
+  background-color: white;
+  color: #5bc0de;
+  border: 2px solid #5bc0de;
+}
+
+.excluir {
+  background-color: #d9534f;
+  color: white;
+}
+
+#section3 {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  padding-left: 0px;
+}
+
+.naveg {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  color: #5bc0de;
+  border-top: 1px solid #ccc;
+}
